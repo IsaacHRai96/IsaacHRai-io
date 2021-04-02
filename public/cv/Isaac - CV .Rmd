@@ -1,0 +1,67 @@
+---
+title: CV
+name: Isaac
+surname: Rai
+position: "Graduate Student at Grand Valley State University"
+address: "Grand Rapids, Michigan"
+phone: +1 518 209 0911
+email: "isaac.rai@gmail.com"
+github: IsaacHRai96
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Graduate assistant at Grand Valley State University studying data science and analytics"
+output: 
+  vitae::markdowncv:
+    theme: kjhealy
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+## Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Master of Science in data science and analytics", "2020-22", "Grand Valley State University", "Grand Rapids, Michigan",
+  "Bachelor of Science in elcectrical and computer engineering", "2019", "Calvin College", "Grand Rapids, Michigan"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Work Experience
+
+```{r}
+library(tibble)
+tribble(
+  ~ Year, ~ Title, ~ Company,
+  2021, "Graduate Assistant", "Grand Valley State University",
+  2020, "Quality Management Intern", "Volkswagen", 
+  2018, "Software Engineering Intern", "Medallion Instrumentation Systems"
+) %>% 
+    brief_entries(what = Title, when = Year, with = Company)
+```
+
+## Activities 
+
+```{r}
+library(tibble)
+tribble(
+  ~ Year, ~ Involvement, ~ Org,
+  "2019-20", "CBYX Fellowship", "U.S. Department of State", 
+  "2019-20", "Formula Student Team Member", "Horsepower Hannover"
+  ) %>% 
+  brief_entries(what = Involvement , when = Year, with = Org)
+
+```
+
+## Skills 
+
+ **Programming Languages** Python, R, SQL, SAS, C++, C, Assembly, VHDL
+ 
+ **Other Skills** MATLAB, MongoDB, Oracle,Jupyter, Pandas, Neural Networks, Data Mining, Neo4j, D3.js, Tableau, Git, Specification Writing, EAGLE, Circuit Design, FPGA Technology,
+     Quartus, PSPCIE
+ 
+

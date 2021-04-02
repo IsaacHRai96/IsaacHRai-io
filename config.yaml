@@ -1,0 +1,25 @@
+baseURL:
+languageCode: en-us
+title: Isac Rai's Website
+theme: paperesque
+copyright: © 2011-2020 Fabian Tamp
+buildDrafts: yes
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      pygmentsUseClasses: yes
+      unsafe: yes
+params:
+  menu:
+    - name: Posts
+      url: posts/
+    - name: About Me
+      url: about/
+  topmenu:
+    - name: Github 
+      url: https://github.com/IsaacHRai96
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/isaac-rai-79875716a/
+    - name: About Me
+      url: about/

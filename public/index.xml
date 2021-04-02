@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Isac Rai&#39;s Website</title>
+    <link>/</link>
+    <description>Recent content on Isac Rai&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2011-2020 Fabian Tamp</copyright>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Welcome to my Website! My name is Isaac Rai. I am a graduate student at Grand Valley State University studying data science and analytics. I have a background in computer engineering and love using my skills to explore a wide variety of fields!</description>
+    </item>
+    
+    <item>
+      <title>About this space</title>
+      <link>/posts/about-this-space/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/about-this-space/</guid>
+      <description>This space will eventually be home to different projects and things that I want to share. But for now have these pictures of my cats.</description>
+    </item>
+    
+  </channel>
+</rss>

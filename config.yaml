@@ -18,8 +18,8 @@ params:
       url: about/
   topmenu:
     - name: Github 
-      url: https://github.com/IsaacHRai96
+      url: "https://github.com/IsaacHRai96"
     - name: LinkedIn
-      url: https://www.linkedin.com/in/isaac-rai-79875716a/
+      url: "https://www.linkedin.com/in/isaac-rai-79875716a/"
     - name: About Me
       url: about/
